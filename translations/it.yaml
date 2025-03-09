@@ -1,0 +1,68 @@
+configuration:
+  connector_brand_seatcupra :
+    nome: "Marchio del produttore"
+    description: "Attiva le opzioni specifiche del marchio."
+  connector_username_seatcupra:
+    name: "Nome utente SeatCupra"
+    description: "Inserisci l'indirizzo email utilizzato per accedere al servizio SeatCupra. Lascia il campo vuoto se non desideri utilizzare questo connettore."
+  connector_password_seatcupra:
+    name: "Password SeatCupra"
+    description: "Inserisci la password del tuo account SeatCupra."
+  connector_spin_seatcupra:
+    name: "Codice PIN SeatCupra"
+    description: "Inserisci il codice PIN a 4 cifre utilizzato per l'accesso remoto al veicolo SeatCupra."
+  connector_interval_seatcupra:
+    name: "Intervallo di aggiornamento SeatCupra"
+    description: "Inserisci l'intervallo in secondi tra due recuperi di informazioni del veicolo SeatCupra. Nota che le chiamate API sono soggette a una quota. Una volta superata la quota, l'API non funzionerà per un determinato periodo."
+
+  connector_username_skoda:
+    name: "Nome utente Skoda"
+    description: "Inserisci l'indirizzo email utilizzato per accedere al servizio Skoda. Lascia il campo vuoto se non desideri utilizzare questo connettore."
+  connector_password_skoda:
+    name: "Password Skoda"
+    description: "Inserisci la password del tuo account Skoda."
+  connector_spin_skoda:
+    name: "Codice PIN Skoda"
+    description: "Inserisci il codice PIN a 4 cifre utilizzato per l'accesso remoto al veicolo."
+  connector_interval_skoda:
+    name: "Intervallo di aggiornamento Skoda"
+    description: "Inserisci l'intervallo in secondi tra due recuperi di informazioni del veicolo Skoda. Nota che le chiamate API sono soggette a una quota. Una volta superata la quota, l'API non funzionerà per un determinato periodo."
+
+  connector_username_vw:
+    name: "Nome utente Volkswagen"
+    description: "Inserisci l'indirizzo email utilizzato per accedere al servizio Volkswagen. Lascia il campo vuoto se non desideri utilizzare questo connettore."
+  connector_password_vw:
+    name: "Password Volkswagen"
+    description: "Inserisci la password del tuo account Volkswagen."
+  connector_spin_vw:
+    name: "Codice PIN Volkswagen"
+    description: "Inserisci il codice PIN a 4 cifre utilizzato per l'accesso remoto al veicolo."
+  connector_interval_vw:
+    name: "Intervallo di aggiornamento Volkswagen"
+    description: "Inserisci l'intervallo in secondi tra due recuperi di informazioni del veicolo Volkswagen. Nota che le chiamate API sono soggette a una quota. Una volta superata la quota, l'API non funzionerà per un determinato periodo."
+
+  connector_username_trionity:
+    name: "Nome utente Trionity"
+    description: "Inserisci l'indirizzo email utilizzato per accedere al servizio Trionity. Lascia il campo vuoto se non desideri utilizzare questo connettore."
+  connector_password_trionity:
+    name: "Password Trionity"
+    description: "Inserisci la password del tuo account Trionity."
+  connector_spin_trionity:
+    name: "Codice PIN Trionity"
+    description: "Inserisci il codice PIN a 4 cifre utilizzato per l'accesso remoto al veicolo."
+  connector_interval_trionity:
+    name: "Intervallo di aggiornamento Trionity"
+    description: "Inserisci l'intervallo in secondi tra due recuperi di informazioni del veicolo Trionity. Nota che le chiamate API sono soggette a una quota. Una volta superata la quota, l'API non funzionerà per un determinato periodo."
+
+  mqtt_username:
+    name: "Nome utente MQTT"
+    description: "Inserisci il nome utente per la connessione al broker MQTT."
+  mqtt_password:
+    name: "Password MQTT"
+    description: "Inserisci la password per la connessione al broker MQTT."
+  mqtt_broker:
+    name: "Indirizzo del broker MQTT"
+    description: "Inserisci l'indirizzo IP o il nome di dominio del server MQTT."
+  log_level:
+    name: "Livello di log"
+    description: "Seleziona il livello di log desiderato (info, warning, error, debug)."

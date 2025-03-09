@@ -1,0 +1,57 @@
+name: "CarConnectivity Addon"
+version: "0.1.1"
+slug: "carconnectivity-addon"
+description: "Addon version of Carconnectivity made by Till (see https://github.com/tillsteinbach/CarConnectivity) throught MQTT"
+panel_icon: "mdi:car-wireless"
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+ingress: false
+init: false
+options:
+  connector_brand_seatcupra: ""
+  connector_username_seatcupra: ""
+  connector_password_seatcupra: "password"
+  connector_spin_seatcupra: "1234"
+  connector_interval_seatcupra: 600
+  connector_username_skoda: ""
+  connector_password_skoda: "password"
+  connector_spin_skoda: "1234"
+  connector_interval_skoda: 600
+  connector_username_vw: ""
+  connector_password_vw: "password"
+  connector_spin_vw: "1234"
+  connector_interval_vw: 600
+  connector_username_trionity: ""
+  connector_password_trionity: "password"
+  connector_spin_trionity: "1234"
+  connector_interval_trionity: 600
+  mqtt_username: "mqtt"
+  mqtt_password: "passwordmqtt"
+  mqtt_broker: "192.168.1.52"
+  log_level: list(info|warning|error|debug)
+schema:
+  connector_brand_seatcupra: list(seat|cupra)
+  connector_username_seatcupra: match(^$|^[\w\-\.]+@([\w-]+\.)+[\w-]{2,}$)
+  connector_password_seatcupra: password?
+  connector_interval_seatcupra: int(60,3600)?
+  connector_spin_seatcupra: match(^\d{4}$)?
+  connector_username_skoda: match(^$|^[\w\-\.]+@([\w-]+\.)+[\w-]{2,}$)
+  connector_password_skoda: password?
+  connector_interval_skoda: int(60,3600)?
+  connector_spin_skoda: match(^\d{4}$)?
+  connector_username_vw: match(^$|^[\w\-\.]+@([\w-]+\.)+[\w-]{2,}$)
+  connector_password_vw: password?
+  connector_interval_vw: int(60,3600)?
+  connector_spin_vw: match(^\d{4}$)?
+  connector_username_trionity: match(^$|^[\w\-\.]+@([\w-]+\.)+[\w-]{2,}$)
+  connector_password_trionity: password?
+  connector_interval_trionity: int(60,3600)?
+  connector_spin_trionity: match(^\d{4}$)?
+  mqtt_username: str
+  mqtt_password: password
+  mqtt_broker: str
+  log_level: list(info|warning|error|debug)

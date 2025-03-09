@@ -1,0 +1,68 @@
+configuration:
+  connector_brand_seatcupra:
+    name: "Marque du constructeur"
+    description: "Permet d'exploiter les options spécifiques lies à la marque."
+  connector_username_seatcupra:
+    name: "Nom d'utilisateur SeatCupra"
+    description: "Entrez l'adresse e-mail utilisée pour vous connecter au service SeatCupra. Laissez la valeur vide si vous ne souhaitez pas utilise ce connecteur."
+  connector_password_seatcupra:
+    name: "Mot de passe SeatCupra"
+    description: "Entrez le mot de passe de votre compte SeatCupra."
+  connector_spin_seatcupra:
+    name: "Code PIN SeatCupra"
+    description: "Entrez le code PIN à 4 chiffres utilisé pour l'accès à distance du véhicule SeatCupra."
+  connector_interval_seatcupra:
+    name: "Intervalle de rafraîchissement SeatCupra"
+    description: "Entrez l'intervalle en secondes entre deux récupérations des informations du véhicule SeatCupra. Attention, les appels API sont soumis à un quota. Une fois le quota dépassé, l'API n'est plus fonctionnelle pendant une période donnée."
+
+  connector_username_skoda:
+    name: "Nom d'utilisateur Skoda"
+    description: "Entrez l'adresse e-mail utilisée pour vous connecter au service Skoda. Laissez la valeur vide si vous ne souhaitez pas utilise ce connecteur."
+  connector_password_skoda:
+    name: "Mot de passe Skoda"
+    description: "Entrez le mot de passe de votre compte Skoda."
+  connector_spin_skoda:
+    name: "Code PIN Skoda"
+    description: "Entrez le code PIN à 4 chiffres utilisé pour l'accès à distance du véhicule Skoda."
+  connector_interval_skoda:
+    name: "Intervalle de rafraîchissement Skoda"
+    description: "Entrez l'intervalle en secondes entre deux récupérations des informations du véhicule Skoda. Attention, les appels API sont soumis à un quota. Une fois le quota dépassé, l'API n'est plus fonctionnelle pendant une période donnée."
+
+  connector_username_vw:
+    name: "Nom d'utilisateur Volkswagen"
+    description: "Entrez l'adresse e-mail utilisée pour vous connecter au service Volkswagen. Laissez la valeur vide si vous ne souhaitez pas utilise ce connecteur."
+  connector_password_vw:
+    name: "Mot de passe Volkswagen"
+    description: "Entrez le mot de passe de votre compte Volkswagen."
+  connector_spin_vw:
+    name: "Code PIN Volkswagen"
+    description: "Entrez le code PIN à 4 chiffres utilisé pour l'accès à distance du véhicule Volkswagen."
+  connector_interval_vw:
+    name: "Intervalle de rafraîchissement Volkswagen"
+    description: "Entrez l'intervalle en secondes entre deux récupérations des informations du véhicule Volkswagen. Attention, les appels API sont soumis à un quota. Une fois le quota dépassé, l'API n'est plus fonctionnelle pendant une période donnée."
+
+  connector_username_trionity:
+    name: "Nom d'utilisateur Trionity"
+    description: "Entrez l'adresse e-mail utilisée pour vous connecter au service Trionity. Laissez la valeur vide si vous ne souhaitez pas utilise ce connecteur."
+  connector_password_trionity:
+    name: "Mot de passe Trionity"
+    description: "Entrez le mot de passe de votre compte Trionity."
+  connector_spin_trionity:
+    name: "Code PIN Trionity"
+    description: "Entrez le code PIN à 4 chiffres utilisé pour l'accès à distance du véhicule Trionity."
+  connector_interval_trionity:
+    name: "Intervalle de rafraîchissement Trionity"
+    description: "Entrez l'intervalle en secondes entre deux récupérations des informations du véhicule Trionity. Attention, les appels API sont soumis à un quota. Une fois le quota dépassé, l'API n'est plus fonctionnelle pendant une période donnée."
+
+  mqtt_username:
+    name: "Nom d'utilisateur MQTT"
+    description: "Entrez le nom d'utilisateur pour la connexion au broker MQTT."
+  mqtt_password:
+    name: "Mot de passe MQTT"
+    description: "Entrez le mot de passe pour la connexion au broker MQTT."
+  mqtt_broker:
+    name: "Adresse du broker MQTT"
+    description: "Entrez l'adresse IP ou le nom de domaine du serveur MQTT."
+  log_level:
+    name: "Niveau de journalisation"
+    description: "Sélectionnez le niveau de journalisation souhaité (info, warning, error, debug)."

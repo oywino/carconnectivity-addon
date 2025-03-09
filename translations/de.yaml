@@ -1,0 +1,68 @@
+configuration:
+  connector_brand_seatcupra:
+    name: "Marke des Herstellers"
+    description: "Ermöglicht die Verwendung von markenspezifischen Optionen."
+  connector_username_seatcupra:
+    name: "SeatCupra Benutzername"
+    description: "Geben Sie die E-Mail-Adresse ein, die für die Anmeldung beim SeatCupra-Dienst verwendet wird."
+  connector_password_seatcupra:
+    name: "SeatCupra Passwort"
+    description: "Geben Sie Ihr SeatCupra-Kontopasswort ein. Lassen Sie das Feld leer, wenn Sie diesen Konnektor nicht verwenden möchten."
+  connector_spin_seatcupra:
+    name: "SeatCupra PIN-Code"
+    description: "Geben Sie den 4-stelligen PIN-Code ein, der für den Fernzugriff auf das Fahrzeug verwendet wird."
+  connector_interval_seatcupra: 
+    name: "SeatCupra Aktualisierungsintervall"
+    description: "Geben Sie das Intervall in Sekunden zwischen zwei Fahrzeuginformationsabrufen ein. Beachten Sie, dass API-Aufrufe einem Kontingent unterliegen. Sobald das Kontingent überschritten ist, funktioniert die API für einen bestimmten Zeitraum nicht mehr."
+
+  connector_username_skoda:
+    name: "Skoda Benutzername"
+    description: "Geben Sie die E-Mail-Adresse ein, die für die Anmeldung beim Skoda-Dienst verwendet wird."
+  connector_password_skoda:
+    name: "Skoda Passwort"
+    description: "Geben Sie Ihr Skoda-Kontopasswort ein. Lassen Sie das Feld leer, wenn Sie diesen Konnektor nicht verwenden möchten."
+  connector_spin_skoda:
+    name: "Skoda PIN-Code"
+    description: "Geben Sie den 4-stelligen PIN-Code ein, der für den Fernzugriff auf das Fahrzeug verwendet wird."
+  connector_interval_skoda: 
+    name: "Skoda Aktualisierungsintervall"
+    description: "Geben Sie das Intervall in Sekunden zwischen zwei Fahrzeuginformationsabrufen ein. Beachten Sie, dass API-Aufrufe einem Kontingent unterliegen. Sobald das Kontingent überschritten ist, funktioniert die API für einen bestimmten Zeitraum nicht mehr."
+
+  connector_username_vw:
+    name: "Volkswagen Benutzername"
+    description: "Geben Sie die E-Mail-Adresse ein, die für die Anmeldung beim Volkswagen-Dienst verwendet wird."
+  connector_password_vw:
+    name: "Volkswagen Passwort"
+    description: "Geben Sie Ihr Volkswagen-Kontopasswort ein. Lassen Sie das Feld leer, wenn Sie diesen Konnektor nicht verwenden möchten."
+  connector_spin_vw:
+    name: "Volkswagen PIN-Code"
+    description: "Geben Sie den 4-stelligen PIN-Code ein, der für den Fernzugriff auf das Fahrzeug verwendet wird."
+  connector_interval_vw: 
+    name: "Volkswagen Aktualisierungsintervall"
+    description: "Geben Sie das Intervall in Sekunden zwischen zwei Fahrzeuginformationsabrufen ein. Beachten Sie, dass API-Aufrufe einem Kontingent unterliegen. Sobald das Kontingent überschritten ist, funktioniert die API für einen bestimmten Zeitraum nicht mehr."
+
+  connector_username_trionity:
+    name: "Trionity Benutzername"
+    description: "Geben Sie die E-Mail-Adresse ein, die für die Anmeldung beim Trionity-Dienst verwendet wird."
+  connector_password_trionity:
+    name: "Trionity Passwort"
+    description: "Geben Sie Ihr Trionity-Kontopasswort ein. Lassen Sie das Feld leer, wenn Sie diesen Konnektor nicht verwenden möchten."
+  connector_spin_trionity:
+    name: "Trionity PIN-Code"
+    description: "Geben Sie den 4-stelligen PIN-Code ein, der für den Fernzugriff auf das Fahrzeug verwendet wird."
+  connector_interval_trionity: 
+    name: "Trionity Aktualisierungsintervall"
+    description: "Geben Sie das Intervall in Sekunden zwischen zwei Fahrzeuginformationsabrufen ein. Beachten Sie, dass API-Aufrufe einem Kontingent unterliegen. Sobald das Kontingent überschritten ist, funktioniert die API für einen bestimmten Zeitraum nicht mehr."
+
+  mqtt_username:
+    name: "MQTT Benutzername"
+    description: "Geben Sie den Benutzernamen für die Verbindung zum MQTT-Broker ein."
+  mqtt_password:
+    name: "MQTT Passwort"
+    description: "Geben Sie das Passwort für die Verbindung zum MQTT-Broker ein."
+  mqtt_broker:
+    name: "MQTT Broker-Adresse"
+    description: "Geben Sie die IP-Adresse oder den Domainnamen des MQTT-Servers ein."
+  log_level:
+    name: "Protokollierungsstufe"
+    description: "Wählen Sie die gewünschte Protokollierungsstufe aus (info, warning, error, debug)."

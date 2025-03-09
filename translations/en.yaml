@@ -1,0 +1,68 @@
+configuration:
+  connector_brand_seatcupra:
+    name: "Manufacturer's brand"
+    description: "Enables brand-specific options to be used."
+  connector_username_seatcupra:
+    name: "SeatCupra Username"
+    description: "Enter the email address used to log in to the SeatCupra service. Leave the value empty if you do not wish to use this connector."
+  connector_password_seatcupra:
+    name: "SeatCupra Password"
+    description: "Enter your SeatCupra account password."
+  connector_spin_seatcupra:
+    name: "SeatCupra PIN Code"
+    description: "Enter the 4-digit PIN code used for remote vehicle access."
+  connector_interval_seatcupra:
+    name: "SeatCupra Refresh Interval"
+    description: "Enter the interval in seconds between two vehicle information retrievals. Note that API calls are subject to a quota. Once the quota is exceeded, the API will not function for a given period."
+
+  connector_username_skoda:
+    name: "Skoda Username"
+    description: "Enter the email address used to log in to the Skoda service. Leave the value empty if you do not wish to use this connector."
+  connector_password_skoda:
+    name: "Skoda Password"
+    description: "Enter your Skoda account password."
+  connector_spin_skoda:
+    name: "Skoda PIN Code"
+    description: "Enter the 4-digit PIN code used for remote vehicle access."
+  connector_interval_skoda:
+    name: "Skoda Refresh Interval"
+    description: "Enter the interval in seconds between two vehicle information retrievals. Note that API calls are subject to a quota. Once the quota is exceeded, the API will not function for a given period."
+
+  connector_username_vw:
+    name: "Volkswagen Username"
+    description: "Enter the email address used to log in to the Volkswagen service. Leave the value empty if you do not wish to use this connector."
+  connector_password_vw:
+    name: "Volkswagen Password"
+    description: "Enter your Volkswagen account password."
+  connector_spin_vw:
+    name: "Volkswagen PIN Code"
+    description: "Enter the 4-digit PIN code used for remote vehicle access. Leave the value empty if you do not wish to use this connector."
+  connector_interval_vw:
+    name: "Volkswagen Refresh Interval"
+    description: "Enter the interval in seconds between two vehicle information retrievals. Note that API calls are subject to a quota. Once the quota is exceeded, the API will not function for a given period."
+
+  connector_username_trionity:
+    name: "Trionity Username"
+    description: "Enter the email address used to log in to the Trionity service. Leave the value empty if you do not wish to use this connector."
+  connector_password_trionity:
+    name: "Trionity Password"
+    description: "Enter your Trionity account password."
+  connector_spin_trionity:
+    name: "Trionity PIN Code"
+    description: "Enter the 4-digit PIN code used for remote vehicle access."
+  connector_interval_trionity:
+    name: "Trionity Refresh Interval"
+    description: "Enter the interval in seconds between two vehicle information retrievals. Note that API calls are subject to a quota. Once the quota is exceeded, the API will not function for a given period."
+
+  mqtt_username:
+    name: "MQTT Username"
+    description: "Enter the username for connecting to the MQTT broker."
+  mqtt_password:
+    name: "MQTT Password"
+    description: "Enter the password for connecting to the MQTT broker."
+  mqtt_broker:
+    name: "MQTT Broker Address"
+    description: "Enter the IP address or domain name of the MQTT server."
+  log_level:
+    name: "Log Level"
+    description: "Select the desired log level (info, warning, error, debug)."
